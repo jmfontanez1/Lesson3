@@ -1,6 +1,38 @@
 img{
     width: 300px;
 }
-body{
-    background-color: chartreuse;
+h1, h2, h3{
+    color: #474747;
+}
+header{
+    background-color: #84A07C;
+}
+.projects{
+    background-color: #D3BCCC;
+}
+.projects a{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(86, 3, 173);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects a:hover{
+    background: rgba(86, 3, 173, 80%)
+}
+.education{
+    background-color: #84A07C;
+}
+section h2{
+    color: #5603AD;
+}
+a:link{
+color: slategray;
+}
+a:visited{
+    color: darkslategray;
+}
+footer{
+    background-color: #D3BCCC;
 }
