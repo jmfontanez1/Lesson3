@@ -4,6 +4,7 @@ img{
 h1{
     font-size: 70px;
     line-height: 1.2;
+    text-shadow: 4px 4px 4px whitesmoke;
 }
 h1, h2, h3{
     color: #474747;
