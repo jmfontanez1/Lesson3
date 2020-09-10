@@ -35,7 +35,7 @@ h2{
     background-color: #D3BCCC;
 }
 .projects a{
-    color:black;
+    color:white;
     font-weight: bold;
     background-color: rgb(86, 3, 173);
     text-decoration: none;
@@ -43,6 +43,13 @@ h2{
     border-radius: 4px;
     display: inline-block;
 }
+.projects a:link{
+    color: white;
+}
+.projects a:visited{
+    color:bisque
+}
+
 .projects a:hover{
     background: rgba(86, 3, 173, 80%)
 }
