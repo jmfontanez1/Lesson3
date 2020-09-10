@@ -1,25 +1,62 @@
 img{
     width: 300px;
 }
+h1{
+    font-size: 70px;
+    line-height: 1.2;
+}
 h1, h2, h3{
     color: #474747;
 }
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
 header{
     background-color: #84A07C;
+}
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+h2{
+    font-size: 35px;
 }
 .projects{
     background-color: #D3BCCC;
 }
 .projects a{
+    color:black;
     font-weight: bold;
-    color: white;
     background-color: rgb(86, 3, 173);
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 .projects a:hover{
     background: rgba(86, 3, 173, 80%)
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 2px dashed darkgrey;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+    margin-top: 0;
 }
 .education{
     background-color: #84A07C;
@@ -32,6 +69,11 @@ color: slategray;
 }
 a:visited{
     color: darkslategray;
+}
+.content-wrap{
+    width: 800px;
+    margin:0 auto;
+    padding: 60px 0;
 }
 footer{
     background-color: #D3BCCC;
