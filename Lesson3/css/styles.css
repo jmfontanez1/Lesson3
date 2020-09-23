@@ -16,6 +16,28 @@ h1, h2{
 header{
     background-color: #84A07C;
 }
+ul{
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: aliceblue;
+
+}
+ul li{
+    font: bold 16px sans-serif;
+    display: inline-block;
+    position: relative;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 10px;
+    background-color: #D3BCCC;
+}
 html{
     box-sizing: border-box;
 }
