@@ -15,51 +15,65 @@ h1, h2{
 }
 header{
     background-color: #84A07C;
+    display: block;
 }
-ul{
-    text-align: left;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow:hidden;
-    background-color: aliceblue;
+nav{
+    background-color: #D3BCCC;
+    display: block;
+    width: 100%;
 
 }
-ul li{
-    font: bold 16px sans-serif;
+nav a{
+    display: block;
+    text-decoration: none;
+}
+nav ul{
+    display: inline;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    /*background-color: aliceblue;*/
+
+}
+nav ul li{
+    font: bold 14px sans-serif;
     display: inline-block;
     position: relative;
+    background: #D3BCCC;
+    width: 150px;
 }
-li{
-    float: left;
+nav li{
+    /*float: left;*/
+    position: fixed;
 }
-ul li:hover {
-background: #84A07C;
+nav ul li:hover {
+background: #ecdae7;
 color: black;
 }
-ul li ul {
-    padding: 0;
-    position: absolute;
-    top: 30px;
+nav ul li ul {
+    padding: 0px;
+   position: absolute;
+    top: 45px;
     left: -10000px;
-    width: 100px;
+    width: 100%;
 }
-ul li ul li{
-    background: blueviolet;
+nav ul li ul li{
     display: block;
-    color: brown;
 }
-ul li ul li:hover{
-    background: cadetblue;
+nav ul li ul li:hover{
+    background: rgb(247, 227, 242);
 }
-ul li:hover ul{
+nav ul li:hover ul{
     display: block;
     left: 0px;
 }
-li a{
+nav li a{
     display: block;
     padding: 20px;
-    background-color: #D3BCCC;
+    /*background-color: darkgrey;*/
 }
 html{
     box-sizing: border-box;
